@@ -1,0 +1,358 @@
+CRITICAL - 2022-05-12 19:32:11 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\Home.php(13): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:33:19 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\Home.php(14): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:33:20 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\Home.php(14): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:33:21 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\Home.php(14): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:33:31 --> A non-numeric value encountered
+#0 D:\Desktop\tms-frontend\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Desktop\\tms-...', 14, Array)
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#6 {main}
+CRITICAL - 2022-05-12 19:34:01 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\Home.php(14): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:34:04 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\Home.php(14): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:34:09 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\Home.php(14): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:34:20 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\Home.php(14): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:34:27 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\Home.php(10): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:35:20 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\Home.php(10): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:35:42 --> Undefined property: App\Controllers\Home::$load
+#0 D:\Desktop\tms-frontend\app\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Desktop\\tms-...', 10, Array)
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#6 {main}
+CRITICAL - 2022-05-12 19:35:43 --> Undefined property: App\Controllers\Home::$load
+#0 D:\Desktop\tms-frontend\app\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Desktop\\tms-...', 10, Array)
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#6 {main}
+CRITICAL - 2022-05-12 19:37:36 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#6 {main}
+CRITICAL - 2022-05-12 19:37:38 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/')
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#6 {main}
+CRITICAL - 2022-05-12 19:42:31 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\UserController.php(10): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:42:47 --> Invalid file: http://localhost:8080/login.php
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhos...')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('http://localhos...', Array, true)
+#2 D:\Desktop\tms-frontend\app\Controllers\UserController.php(10): view('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:44:00 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\UserController.php(10): redirect('/login')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:44:12 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\UserController.php(10): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:45:12 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\UserController.php(11): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:46:18 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\UserController.php(13): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:46:31 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\UserController.php(11): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:46:52 --> Undefined property: App\Controllers\UserController::$load
+#0 D:\Desktop\tms-frontend\app\Controllers\UserController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Desktop\\tms-...', 11, Array)
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#6 {main}
+CRITICAL - 2022-05-12 19:46:54 --> Undefined property: App\Controllers\UserController::$load
+#0 D:\Desktop\tms-frontend\app\Controllers\UserController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Desktop\\tms-...', 11, Array)
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#6 {main}
+CRITICAL - 2022-05-12 19:47:59 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\UserController.php(11): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:48:00 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Controllers\UserController.php(11): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 19:55:26 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Views\welcome_message.php(2): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\tms-...')
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#6 D:\Desktop\tms-frontend\app\Controllers\UserController.php(11): view('welcome_message')
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#8 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#12 {main}
+CRITICAL - 2022-05-12 19:55:27 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Views\welcome_message.php(2): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\tms-...')
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#6 D:\Desktop\tms-frontend\app\Controllers\UserController.php(11): view('welcome_message')
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->index()
+#8 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#12 {main}
+CRITICAL - 2022-05-12 19:55:50 -->  route cannot be found while reverse-routing.
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Desktop\tms-frontend\app\Views\welcome_message.php(2): redirect('http://localhos...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\tms-...')
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#6 D:\Desktop\tms-frontend\app\Controllers\Home.php(11): view('welcome_message')
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#12 {main}
+CRITICAL - 2022-05-12 21:53:09 --> Invalid file: templates/printslip.php
+#0 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/print...')
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('templates/print...', Array, true)
+#2 D:\Desktop\tms-frontend\app\Controllers\PrintSlip.php(19): view('templates/print...')
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\PrintSlip->printslip()
+#4 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintSlip))
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#8 {main}
+CRITICAL - 2022-05-12 22:19:38 --> Undefined variable: domain
+#0 D:\Desktop\tms-frontend\app\Views\pages\printslip.php(361): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Desktop\\tms-...', 361, Array)
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\tms-...')
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/printslip', Array, true)
+#4 D:\Desktop\tms-frontend\app\Controllers\PrintSlip.php(19): view('pages/printslip')
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\PrintSlip->printslip()
+#6 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintSlip))
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#10 {main}
+CRITICAL - 2022-05-12 22:19:59 --> Undefined variable: domain
+#0 D:\Desktop\tms-frontend\app\Views\pages\printslip.php(361): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Desktop\\tms-...', 361, Array)
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\tms-...')
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/printslip', Array, true)
+#4 D:\Desktop\tms-frontend\app\Controllers\PrintSlip.php(19): view('pages/printslip')
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\PrintSlip->printslip()
+#6 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintSlip))
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#10 {main}
+CRITICAL - 2022-05-12 22:21:24 --> Undefined variable: domain
+#0 D:\Desktop\tms-frontend\app\Views\pages\printslip.php(361): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Desktop\\tms-...', 361, Array)
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\tms-...')
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/printslip', Array, true)
+#4 D:\Desktop\tms-frontend\app\Controllers\PrintSlip.php(19): view('pages/printslip')
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\PrintSlip->printslip()
+#6 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintSlip))
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#10 {main}
+CRITICAL - 2022-05-12 22:31:05 --> Undefined index: id
+#0 D:\Desktop\tms-frontend\app\Views\pages\printslip.php(354): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Desktop\\tms-...', 354, Array)
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\tms-...')
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/printslip', Array, true)
+#4 D:\Desktop\tms-frontend\app\Controllers\PrintSlip.php(19): view('pages/printslip', Array)
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\PrintSlip->printslip()
+#6 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintSlip))
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#10 {main}
+CRITICAL - 2022-05-12 22:34:11 --> Undefined index: id
+#0 D:\Desktop\tms-frontend\app\Views\pages\printslip.php(354): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Desktop\\tms-...', 354, Array)
+#1 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\tms-...')
+#2 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/printslip', Array, true)
+#4 D:\Desktop\tms-frontend\app\Controllers\PrintSlip.php(19): view('pages/printslip', Array)
+#5 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\PrintSlip->printslip()
+#6 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintSlip))
+#7 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\tms-...')
+#10 {main}

@@ -1,0 +1,12 @@
+CRITICAL - 2022-05-20 03:21:09 --> Undefined array key "staff"
+#0 C:\Users\Ryzen 5\Desktop\frontend\051922-tms-frontend\app\Views\pages\report.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Ryzen ...', 172)
+#1 C:\Users\Ryzen 5\Desktop\frontend\051922-tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Ryzen ...')
+#2 C:\Users\Ryzen 5\Desktop\frontend\051922-tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Ryzen 5\Desktop\frontend\051922-tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/report', Array, true)
+#4 C:\Users\Ryzen 5\Desktop\frontend\051922-tms-frontend\app\Controllers\ReportController.php(23): view('pages/report', Array)
+#5 C:\Users\Ryzen 5\Desktop\frontend\051922-tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ReportController->report()
+#6 C:\Users\Ryzen 5\Desktop\frontend\051922-tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+#7 C:\Users\Ryzen 5\Desktop\frontend\051922-tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Ryzen 5\Desktop\frontend\051922-tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ryzen 5\Desktop\frontend\051922-tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Ryzen ...')
+#10 {main}

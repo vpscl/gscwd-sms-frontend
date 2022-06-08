@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-18 02:36:31 --> Undefined variable: checkEP
+#0 D:\Desktop\test\tms_frontend\app\Views\templates\footer.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Desktop\\test...', 20, Array)
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\test...')
+#2 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#4 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(48): view('templates/foote...')
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->home()
+#6 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#10 {main}

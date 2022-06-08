@@ -1,0 +1,54 @@
+CRITICAL - 2022-04-28 00:52:43 --> Unclosed '{' on line 139
+#0 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#2 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Controllers\UserController.php(83): view('templates/foote...')
+#3 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserController->dashboard()
+#4 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Ryzen 5\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Ryzen ...')
+#8 {main}
+CRITICAL - 2022-04-28 01:04:53 --> Undefined variable $domain
+#0 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Views\pages\newticket.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Ryzen ...', 99)
+#1 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Ryzen ...')
+#2 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/newticket', Array, true)
+#4 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Controllers\NewTicket.php(21): view('pages/newticket')
+#5 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\NewTicket->newticket()
+#6 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewTicket))
+#7 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Ryzen 5\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Ryzen ...')
+#10 {main}
+CRITICAL - 2022-04-28 01:04:59 --> Undefined variable $domain
+#0 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Views\pages\newticket.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Ryzen ...', 99)
+#1 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Ryzen ...')
+#2 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/newticket', Array, true)
+#4 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Controllers\NewTicket.php(21): view('pages/newticket')
+#5 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\NewTicket->newticket()
+#6 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewTicket))
+#7 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Ryzen 5\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Ryzen ...')
+#10 {main}
+CRITICAL - 2022-04-28 21:19:30 --> Invalid file: pages/viewticket.php
+#0 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/viewticke...')
+#1 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/viewticke...', Array, true)
+#2 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Controllers\Tickets.php(57): view('pages/viewticke...', Array)
+#3 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tickets->viewticket()
+#4 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#5 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Ryzen 5\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Ryzen ...')
+#8 {main}
+CRITICAL - 2022-04-28 21:45:04 --> Invalid file: pages/viewticket/.php
+#0 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/viewticke...')
+#1 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/viewticke...', Array, true)
+#2 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Controllers\Tickets.php(57): view('pages/viewticke...', Array)
+#3 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tickets->viewticket('0048')
+#4 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#5 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Ryzen 5\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Ryzen ...')
+#8 {main}

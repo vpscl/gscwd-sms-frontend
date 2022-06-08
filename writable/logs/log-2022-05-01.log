@@ -1,0 +1,36 @@
+CRITICAL - 2022-05-01 06:38:42 --> Undefined array key "id"
+#0 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Views\templates\footer.php(548): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Ryzen ...', 548)
+#1 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Ryzen ...')
+#2 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#4 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Controllers\Tickets.php(58): view('templates/foote...', Array)
+#5 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tickets->viewticket()
+#6 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#7 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Ryzen 5\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Ryzen ...')
+#10 {main}
+CRITICAL - 2022-05-01 06:38:58 --> Undefined array key "id"
+#0 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Views\templates\footer.php(548): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Ryzen ...', 548)
+#1 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Ryzen ...')
+#2 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#4 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Controllers\Tickets.php(58): view('templates/foote...', Array)
+#5 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tickets->viewticket()
+#6 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#7 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Ryzen 5\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Ryzen ...')
+#10 {main}
+CRITICAL - 2022-05-01 06:54:24 --> Undefined array key "id"
+#0 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Views\templates\footer.php(548): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\Ryzen ...', 548)
+#1 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Ryzen ...')
+#2 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#4 C:\Users\Ryzen 5\Desktop\tms-frontend\app\Controllers\Tickets.php(58): view('templates/foote...', Array)
+#5 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tickets->viewticket()
+#6 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#7 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Ryzen 5\Desktop\tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Ryzen 5\Desktop\tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Ryzen ...')
+#10 {main}

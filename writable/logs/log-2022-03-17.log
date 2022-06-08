@@ -1,0 +1,39 @@
+CRITICAL - 2022-03-17 00:15:25 --> Cannot declare class App\Controllers\user, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-17 00:34:56 --> Undefined variable: userEP
+#0 D:\Desktop\test\tms_frontend\app\Views\pages\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Desktop\\test...', 34, Array)
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\test...')
+#2 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#4 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(22): view('pages/login', Array)
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->login()
+#6 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#10 {main}
+CRITICAL - 2022-03-17 03:38:00 --> Undefined variable: checkEP
+#0 D:\Desktop\test\tms_frontend\app\Views\pages\login.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Desktop\\test...', 39, Array)
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\test...')
+#2 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#4 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(43): view('pages/login', Array)
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->home()
+#6 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#10 {main}
+CRITICAL - 2022-03-17 03:52:59 --> Undefined variable: login
+#0 D:\Desktop\test\tms_frontend\app\Views\pages\login.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Desktop\\test...', 50, Array)
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\test...')
+#2 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#4 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(27): view('pages/login', Array)
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->login()
+#6 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#10 {main}

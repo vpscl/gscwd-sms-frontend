@@ -1,0 +1,12 @@
+CRITICAL - 2022-05-29 21:18:23 --> Undefined index: role
+#0 D:\Desktop\Untitled folder\05-26-tms-frontend\app\Views\pages\tickets.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Desktop\\Unti...', 47, Array)
+#1 D:\Desktop\Untitled folder\05-26-tms-frontend\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Desktop\\Unti...')
+#2 D:\Desktop\Untitled folder\05-26-tms-frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Desktop\Untitled folder\05-26-tms-frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/tickets', Array, true)
+#4 D:\Desktop\Untitled folder\05-26-tms-frontend\app\Controllers\Tickets.php(21): view('pages/tickets')
+#5 D:\Desktop\Untitled folder\05-26-tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tickets->tickets()
+#6 D:\Desktop\Untitled folder\05-26-tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tickets))
+#7 D:\Desktop\Untitled folder\05-26-tms-frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Desktop\Untitled folder\05-26-tms-frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Desktop\Untitled folder\05-26-tms-frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\Unti...')
+#10 {main}

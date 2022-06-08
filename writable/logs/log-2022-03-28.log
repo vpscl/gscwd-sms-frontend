@@ -1,0 +1,90 @@
+CRITICAL - 2022-03-28 19:59:03 --> syntax error, unexpected end of file
+#0 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(33): view('templates/heade...')
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->login()
+#4 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#8 {main}
+CRITICAL - 2022-03-28 21:26:18 --> Invalid file: pages/dashboard/dashboard.php
+#0 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/dashboard...')
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard...', Array, true)
+#2 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(52): view('pages/dashboard...', Array)
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->dashboard()
+#4 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#8 {main}
+CRITICAL - 2022-03-28 21:27:02 --> Invalid file: pages/dashboard/dashboard.php
+#0 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/dashboard...')
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard...', Array, true)
+#2 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(52): view('pages/dashboard...', Array)
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->dashboard()
+#4 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#8 {main}
+CRITICAL - 2022-03-28 21:27:52 --> Invalid file: pages/dashboard/dashboard.php
+#0 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/dashboard...')
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard...', Array, true)
+#2 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(52): view('pages/dashboard...', Array)
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->dashboard()
+#4 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#8 {main}
+CRITICAL - 2022-03-28 21:28:08 --> Invalid file: pages/dashboard/dashboard.php
+#0 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/dashboard...')
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard...', Array, true)
+#2 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(52): view('pages/dashboard...', Array)
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->dashboard()
+#4 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#8 {main}
+CRITICAL - 2022-03-28 21:28:45 --> Invalid file: pages/dashboard/dashboard.php
+#0 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/dashboard...')
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard...', Array, true)
+#2 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(52): view('pages/dashboard...')
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->dashboard()
+#4 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#8 {main}
+CRITICAL - 2022-03-28 21:29:25 --> Invalid file: pages/dashboard/dashboard.php
+#0 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/dashboard...')
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard...', Array, true)
+#2 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(52): view('pages/dashboard...', Array)
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->dashboard()
+#4 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#8 {main}
+CRITICAL - 2022-03-28 21:29:25 --> Invalid file: pages/dashboard/dashboard.php
+#0 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/dashboard...')
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard...', Array, true)
+#2 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(52): view('pages/dashboard...', Array)
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->dashboard()
+#4 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#8 {main}
+CRITICAL - 2022-03-28 22:33:49 --> Invalid file: pages/dashboard/dashboard.php
+#0 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/dashboard...')
+#1 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/dashboard...', Array, true)
+#2 D:\Desktop\test\tms_frontend\app\Controllers\user_controller.php(52): view('pages/dashboard...', Array)
+#3 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\user_controller->dashboard()
+#4 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user_controller))
+#5 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Desktop\test\tms_frontend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Desktop\test\tms_frontend\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Desktop\\test...')
+#8 {main}
