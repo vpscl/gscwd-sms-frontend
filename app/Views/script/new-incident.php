@@ -55,7 +55,7 @@
                         // console.log(response)
                         var data = response;
                         if (data['success']) {
-                            location.href = "<?php echo $local ?>/Incident";
+                            location.href = "<?php echo $local ?>/incident";
                         } else if (response['error']) {
                             console.log('Get request error');
                         }

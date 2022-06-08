@@ -171,7 +171,7 @@
                         // console.log(response)
                         var data = response;
                         if (data['success']) {
-                            location.href = "<?php echo $local ?>/Tickets";
+                            location.href = "<?php echo $local ?>/tickets";
                         } else if (response['error']) {
                             console.log('Get request error');
                         }
