@@ -1718,7 +1718,7 @@
                         ],
                         "ajax": {
                             method: "GET",
-                            url: "<?php echo $domain ?>/ticket",
+                            url: "<?php echo $domain ?>/Ticket",
                             "dataSrc": "",
                             error: function(error) {
                                 console.log(error)
@@ -1781,7 +1781,7 @@
                       //count pending tickets admin
              $.ajax({
                         method: "GET",
-                        url: "<?php echo $domain ?>/ticket",
+                        url: "<?php echo $domain ?>/Ticket",
                         success: function(response) {
                             var this_month = new Date();
                             var count = 0;
@@ -1811,7 +1811,7 @@
                     // count all tickets admin
                     $.ajax({
                         method: "GET",
-                        url: "<?php echo $domain ?>/ticket",
+                        url: "<?php echo $domain ?>/Ticket",
                         success: function(response) {
                             // console.log(response)
                             if (response) {
@@ -1844,7 +1844,7 @@
                 //get staff
                 $.ajax({
                     method: "GET",
-                    url: "<?php echo $domain ?>/user",
+                    url: "<?php echo $domain ?>/User",
                     success: function(response) {
                         // console.log(response)
                         var data = response;

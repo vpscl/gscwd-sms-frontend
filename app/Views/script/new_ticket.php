@@ -5,7 +5,7 @@
                 //get category
                 $.ajax({
                     method: "GET",
-                    url: "<?php echo $domain ?>/task",
+                    url: "<?php echo $domain ?>/Task",
                     success: function(response) {
                         // console.log(response)
                         var data = response['task_list']
@@ -30,7 +30,7 @@
                     var sub_category = $(this).val();
                     $.ajax({
                         method: "GET",
-                        url: "<?php echo $domain ?>/sub_task/" + sub_category,
+                        url: "<?php echo $domain ?>/Sub_task/" + sub_category,
                         success: function(response) {
                             // console.log(response)
                             var data = response;
@@ -60,7 +60,7 @@
 
                 $.ajax({
                     method: "GET",
-                    url: "<?php echo $domain ?>/office",
+                    url: "<?php echo $domain ?>/Office",
                     success: function(response) {
                         // console.log(response)
                         var data = response;
@@ -88,7 +88,7 @@
                 var office_code = $(this).val();
                 $.ajax({
                     method: "GET",
-                    url: "<?php echo $domain ?>/department" + "/" + office_code,
+                    url: "<?php echo $domain ?>/Department" + "/" + office_code,
                     success: function(response) {
                         // console.log(response)
                         var data = response;
@@ -119,7 +119,7 @@
                 var department_code = $(this).val();
                 $.ajax({
                     method: "GET",
-                    url: "<?php echo $domain ?>/division" + "/" + department_code,
+                    url: "<?php echo $domain ?>/Division" + "/" + department_code,
                     success: function(response) {
                         // console.log(response)
                         var data = response;
@@ -165,13 +165,13 @@
                 }
                 $.ajax({
                     method: "POST",
-                    url: "<?php echo $domain ?>/ticket",
+                    url: "<?php echo $domain ?>/Ticket",
                     data: data,
                     success: function(response) {
                         // console.log(response)
                         var data = response;
                         if (data['success']) {
-                            location.href = "<?php echo $local ?>/tickets";
+                            location.href = "<?php echo $local ?>/Tickets";
                         } else if (response['error']) {
                             console.log('Get request error');
                         }

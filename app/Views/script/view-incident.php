@@ -4,7 +4,7 @@
             $(document).ready(function() {
                 $.ajax({
                         method: "GET",
-                        url: "<?php echo $domain ?>/division",
+                        url: "<?php echo $domain ?>/Division",
                         success: function(response) {
                             // console.log(response)
                             var data = response;
@@ -33,7 +33,7 @@
                      function list() {
                          $.ajax({
                     method: "GET",
-                    url: "<?php echo $domain ?>/incident" + "/" + "<?php echo $id ?>",
+                    url: "<?php echo $domain ?>/Incident" + "/" + "<?php echo $id ?>",
                     success: function(response) {
                         // console.log(response)
                         if (!response['error']) {
@@ -140,7 +140,7 @@
                 }
                 $.ajax({
                     method: "PUT",
-                    url: "<?php echo $domain ?>/incident/"+"/"+id,
+                    url: "<?php echo $domain ?>/Incident/"+"/"+id,
                     data: data,
                     success: function(response) {
                         // console.log(response)

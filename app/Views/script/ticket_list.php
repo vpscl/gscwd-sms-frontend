@@ -20,7 +20,7 @@
                         ],
                         "ajax": {
                             method: "GET",
-                            url: "<?php echo $domain ?>/ticket",
+                            url: "<?php echo $domain ?>/Ticket",
                             "dataSrc": "",
                             error: function(error) {
                                 console.log(error)
@@ -127,7 +127,7 @@
                         ],
                         "ajax": {
                             method: "GET",
-                            url: "<?php echo $domain ?>/ticket" + "/" + id,
+                            url: "<?php echo $domain ?>/Ticket" + "/" + id,
                             "dataSrc": "",
                             error: function(error) {
                                 console.log(error)

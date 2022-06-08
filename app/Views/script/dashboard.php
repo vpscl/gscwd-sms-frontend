@@ -8,7 +8,7 @@
                     // count all tickets admin
                     $.ajax({
                         method: "GET",
-                        url: "<?php echo $domain ?>/ticket",
+                        url: "<?php echo $domain ?>/Ticket",
                         success: function(response) {
                             // console.log(response)
                             if (response) {
@@ -38,7 +38,7 @@
                     //count pending tickets admin
                     $.ajax({
                         method: "GET",
-                        url: "<?php echo $domain ?>/ticket",
+                        url: "<?php echo $domain ?>/Ticket",
                         success: function(response) {
 
                             var count = 0;
@@ -77,7 +77,7 @@
                         ],
                         "ajax": {
                             method: "GET",
-                            url: "<?php echo $domain ?>/ticket",
+                            url: "<?php echo $domain ?>/Ticket",
                             "dataSrc": "",
                             error: function(error) {
                                 console.log(error)
@@ -136,7 +136,7 @@
                     var id = Cookies.get('id');
                     $.ajax({
                         method: "GET",
-                        url: "<?php echo $domain ?>/ticket" + "/" + id,
+                        url: "<?php echo $domain ?>/Ticket" + "/" + id,
                         success: function(response) {
                             // console.log(response)
                             if (!response['error']) {
@@ -195,7 +195,7 @@
                         ],
                         "ajax": {
                             method: "GET",
-                            url: "<?php echo $domain ?>/ticket" + "/" + id,
+                            url: "<?php echo $domain ?>/Ticket" + "/" + id,
                             "dataSrc": "",
                             error: function(error) {
                                 console.log(error)

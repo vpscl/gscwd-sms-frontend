@@ -17,7 +17,7 @@
                         ],
                         "ajax": {
                             method: "GET",
-                            url: "<?php echo $domain ?>/incident",
+                            url: "<?php echo $domain ?>/Incident",
                             "dataSrc": "",
                             error: function(error) {
                                 console.log(error)

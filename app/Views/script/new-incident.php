@@ -1,7 +1,7 @@
 <script>
                         $.ajax({
                         method: "GET",
-                        url: "<?php echo $domain ?>/division",
+                        url: "<?php echo $domain ?>/Division",
                         success: function(response) {
                             // console.log(response)
                             var data = response;
@@ -49,13 +49,13 @@
                 }
                 $.ajax({
                     method: "POST",
-                    url: "<?php echo $domain ?>/incident",
+                    url: "<?php echo $domain ?>/Incident",
                     data: data,
                     success: function(response) {
                         // console.log(response)
                         var data = response;
                         if (data['success']) {
-                            location.href = "<?php echo $local ?>/incident";
+                            location.href = "<?php echo $local ?>/Incident";
                         } else if (response['error']) {
                             console.log('Get request error');
                         }

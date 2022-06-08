@@ -155,7 +155,7 @@
 
                     $.ajax({
                         method: "PUT",
-                        url: "<?php echo $domain ?>/ticket" + "/" + "<?php echo $id ?>",
+                        url: "<?php echo $domain ?>/Ticket" + "/" + "<?php echo $id ?>",
                         data: data,
                         success: function(response) {
                             // console.log(response)
@@ -197,7 +197,7 @@
 
                     $.ajax({
                         method: "PUT",
-                        url: "<?php echo $domain ?>/ticket" + "/" + "<?php echo $id ?>",
+                        url: "<?php echo $domain ?>/Ticket" + "/" + "<?php echo $id ?>",
                         data: data,
                         success: function(response) {
                             // console.log(response)
@@ -216,13 +216,14 @@
                 //get category
                 $.ajax({
                     method: "GET",
-                    url: "<?php echo $domain ?>/task",
+                    url: "<?php echo $domain ?>/Task",
                     success: function(response) {
                         // console.log(response)
                         var data = response['task_list']
 
                         if (response['task_list']) {
                             var sel = $("#category");
+                            sel.append('<option value="" required>Select</option>');
                             for (var i = 0; i < data.length; i++) {
                                 sel.append('<option value="' + data[i].category + '">' + data[i].category + '</option>');
                             }
@@ -241,7 +242,7 @@
                     var sub_category = $(this).val();
                     $.ajax({
                         method: "GET",
-                        url: "<?php echo $domain ?>/sub_task/" + sub_category,
+                        url: "<?php echo $domain ?>/Sub_task/" + sub_category,
                         success: function(response) {
                             // console.log(response)
                             var data = response;
@@ -249,12 +250,12 @@
                             if (data) {
                                 var sel = $("#sub_category");
                                 sel.empty();
-                                sel.append('<option value=" " hidden >Sub Category</option>');
+                                sel.append('<option value=" " hidden required>Sub Category</option>');
                                 for (var i = 0; i < data.length; i++) {
                                     sel.append('<option value="' + data[i].sub_category + '">' + data[i].sub_category + '</option>');
                                 }
                             } else if (response['error']) {
-                                sel.append('<option value=" " hidden >Sub Category</option>');
+                                sel.append('<option value="" hidden required>Sub Category</option>');
                                 console.log('Get request error');
                             }
 
@@ -271,7 +272,7 @@
 
                 $.ajax({
                     method: "GET",
-                    url: "<?php echo $domain ?>/office",
+                    url: "<?php echo $domain ?>/Office",
                     success: function(response) {
                         // console.log(response)
                         var data = response;
@@ -298,14 +299,14 @@
                     var office_code = $(this).val();
                     $.ajax({
                         method: "GET",
-                        url: "<?php echo $domain ?>/department" + "/" + office_code,
+                        url: "<?php echo $domain ?>/Department" + "/" + office_code,
                         success: function(response) {
                             // console.log(response)
                             var data = response;
                             if (!response['error']) {
                                 var sel = $("#department");
                                 sel.empty();
-                                sel.append('<option value="" hidden >Department</option>')
+                                sel.append('<option value="" hidden required>Department</option>')
                                 for (var i = 0; i < data.length; i++) {
                                     sel.append('<option value="' + data[i].code + '">' + data[i].code + '</option>');
                                 }
@@ -329,14 +330,14 @@
                     var department_code = $(this).val();
                     $.ajax({
                         method: "GET",
-                        url: "<?php echo $domain ?>/division" + "/" + department_code,
+                        url: "<?php echo $domain ?>/Division" + "/" + department_code,
                         success: function(response) {
                             // console.log(response)
                             var data = response;
                             if (!response['error']) {
                                 var sel = $("#division");
                                 sel.empty();
-                                sel.append('<option value="" hidden>Division</option>')
+                                sel.append('<option value="" hidden required>Division</option>')
                                 for (var i = 0; i < data.length; i++) {
                                     sel.append('<option value="' + data[i].code + '">' + data[i].code + '</option>');
                                 }
