@@ -160,10 +160,10 @@ $page = 'Dashboard';
                     
                   </div>
                   <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary" id="filter">Filter</button>
+                    <button type="submit" class="btn btn-primary" id="filter">Confirm</button>
                     <?php ?>
                     </form>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
                   </div>
                 </div>
               </div>

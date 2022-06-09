@@ -130,7 +130,7 @@ $page = 'View Ticket';
         Are you sure you want to delete this ticket?
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" id="delete_ticket">Delete</button>
+        <button type="button" class="btn btn-danger" id="delete_ticket">Confirm</button>
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
       </div>
     </div>

@@ -1,5 +1,5 @@
 <?php
-$page = 'Incident';
+$page = 'Incident Report';
 ?>
 
         <!-- End of Topbar -->
@@ -32,7 +32,7 @@ $page = 'Incident';
                                 <table id="incident-table" class="display" style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th>Service Slip No.</th>
+                                            <th>Incident No.</th>
                                             <th>Incident</th>
                                             <th>Reporter Name</th>
                                             <!-- <th>Contact No.</th> -->
